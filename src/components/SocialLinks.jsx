@@ -3,7 +3,7 @@ import React from 'react'
 const SocialLinks = ({slink, classy}) => {
     return (
         <li key={slink.id}>
-            <a href={slink.href} target="_blank" className={classy}>
+            <a href={slink.href} target="_blank" className={classy} rel="noreferrer">
                 <i className={slink.icon}></i>
             </a>
         </li>
